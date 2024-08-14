@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <script src="script.js"></script>
+    <main>
+        <section class="container">
+            <div class="main_left">
+                <div class="divLogo"><p>GA</p><p>DV</p></div>
+                <div class="main_left_encripter">
+                    <div class="divTextToEncript">
+                        <textarea id="textToEncrypt" placeholder="Ingrese el texto aquí"></textarea>
+                        <div class="textarea-note"><span class="material-symbols-outlined">error</span><p>Solo letras minúsculas y sin acentos</p></div>
+                    </div>
+                    <div class="divButtons">
+                        <button class="encrypt-btn" onclick="encrypt()">Encriptar</button>
+                        <button class="decrypt-btn" onclick="decrypt()">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div id="decrypter" class="main_right">
+                <div class="main_right_decrypter">
+                    <div class="decrypter_preview">
+                        <img id="img_textNotFound" class="img_textNotFound" src="assets/img/image.png" alt="image">
+                        <p id="outputText" class="output-text">Ningún mensaje fue encontrado</p>
+                        <p id="outputDesc" class="output-desc">Ingrese el texto que desea encriptar o desencriptar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
