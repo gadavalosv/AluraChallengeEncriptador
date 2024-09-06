@@ -50,6 +50,3 @@ Proyecto realizado como parte del challenge de Alura Latam.
 
 Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, no dudes en hacer un fork y enviar un pull request.
 
-## Licencia
-
-Este proyecto está bajo la licencia MIT.
